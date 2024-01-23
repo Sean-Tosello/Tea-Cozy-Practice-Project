@@ -1,0 +1,150 @@
+/* Universal Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  /* text-align: center; */
+}
+
+body {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+.container {
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  border-bottom: solid 1px seashell;
+  z-index: 100;
+  height: 3.136rem;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 7.136rem;
+  height: auto;
+  overflow: hidden;
+  margin-left: .454rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+nav li {
+  padding: 0px 15px;
+}
+
+/* Mission Banner */
+#mission {
+  height: 31.919rem;
+  width: 54.545rem;
+  background-repeat: no-repeat;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.136rem;
+}
+
+.mission-wrapper {
+  width: 100%;
+  background-color: black;
+  padding: .6rem;
+  text-align: center;
+}
+
+/* Feature Tea */
+#feature {
+  width: 45.455rem;
+  margin-bottom: 3.136rem;
+}
+
+.feature-wrapper {
+  width: 100%;
+  background-color: black;
+  padding: .6rem;
+  text-align: center;
+}
+
+.image-gallery ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 13.636rem;
+  height: 9.091rem;
+  overflow: hidden;
+  padding: .6rem;
+}
+
+/* Locations */
+
+#locations {
+  height: 22.727rem;
+  width: 54.545rem;
+  background-repeat: no-repeat;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-gallery {
+  width: 100%;
+  background: none;
+  text-align: center;
+}
+
+.location-gallery ul {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  opacity: 1;
+  margin-top: .681rem;
+  margin-left: .909rem;
+  margin-right: .909rem;
+  width: 13.636rem;
+  padding: .6rem;
+}
+
+/* Footer */
+
+footer {
+  height: 9.091rem;
+  width: 100%;
+  text-align: center;
+  padding: .6rem;
+}
+
+/* Copyright */
+
+#copyright {
+  margin-left: .909rem;
+}
